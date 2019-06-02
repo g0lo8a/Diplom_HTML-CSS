@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic-ext');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.all-page {
+    min-width: 1100px;
+}
+
+.container-center {
+  max-width: 1280px;
+  height: auto;
+  margin: 0 auto;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 46px;
+  color: #02918B;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+h3 a {
+  font-size: 16px;
+  line-height: 23px;
+  color: #7e8287;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 10px 0 20px;
+}
+
+h3 a:hover {
+  color: #02918B;
+}
+
+/* header */
+
+.logo {
+  display: inline-block;
+  padding: 18px 7px;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 5px 3px #222);
+}
+
+.top-head {
+  width: 100%;
+  background: #02918C;
+}
+
+menu {
+  max-width: 1190px;
+  margin: 0 auto;
+  font-weight: 800;
+  overflow: hidden;
+}
+
+menu ul {
+  float: right;
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+  padding: 18px 0;
+}
+
+menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+menu ul li a:hover {
+  color: aqua;
+}
+
+menu ul li:nth-child(n + 2) {
+  margin-left: 45px;
+}
+
+section.header {
+  background: url("https://s26.postimg.cc/j4t1ly7rd/header.jpg") no-repeat 0 61px;
+  background-size: 100%;
+}
+
+.header-content {
+  text-align: center;
+  padding: 211px 0 221px;
+  position: relative;
+}
+
+.header-content p {
+  margin: 0;
+  font-size: 30px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.header-content h1 {
+  text-transform: uppercase;
+  margin: 9px 0 0 35px;
+  font-size: 68px;
+  line-height: 75px;
+  letter-spacing: 22px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.header-content .text-bottom {
+  font-size: 18px;
+  letter-spacing: 0.013em;
+  line-height: 33px;
+  font-weight: 500;
+}
+
+.text-bottom:after {
+  content: '';
+  display: block;
+  margin: 42px auto;
+  height: 28px;
+  width: 110px;
+  background: url("https://s26.postimg.cc/ibl16pw5l/image.png") no-repeat;
+}
+
+div.know-more {
+  margin: 45px auto;
+  width: 196px;
+  height: 47px;
+  background-color: #cfc91d;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.know-more a {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0.156em;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.know-more:hover {
+  box-shadow: 0 0 2px 1px #3D5A6C;
+  background-color: #082432;
+  transition: 0.3s;
+}
+
+/* ============================== */
+
+/* about me */
+
+.container-text {
+  margin: 35px auto 0;
+  padding: 0 190px;
+  /*   width: 900px; */
+  font-size: 16px;
+  line-height: 41px;
+  text-align: center;
+  color: #7e8287;
+}
+
+.container-text h2:after {
+  content: '';
+  display: block;
+  margin: 30px auto 15px;
+  height: 15px;
+  width: 170px;
+  background: url("https://s26.postimg.cc/noxt7zxyh/image.png") no-repeat;
+}
+
+strong {
+  font-size: 23px;
+  letter-spacing: 0.031em;
+}
+
+.container-block {
+  max-width: 1280px;
+  font-size: 0;
+  margin: 0 63px 25px;
+}
+
+.container-box {
+  display: inline-block;
+  width: 25%;
+  padding: 35px 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 60px 0 90px;
+}
+
+.container-box:nth-child(n + 2) {
+  border-left: 1px solid #D9DBDB;
+}
+
+.icon-box {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background-image: url(https://s26.postimg.cc/vbev3hdtl/ico_top.png);
+}
+
+.light-ico {
+  background-position: 0 52px;
+}
+
+.gear-ico {
+  background-position: 52px 0;
+}
+
+.screen-ico {
+  background-position: 52px 52px;
+}
+
+.text-box p {
+  color: #7e8287;
+  font-size: 11px;
+  line-height: 21px;
+  padding: 0 35px;
+}
+
+/* SERVICES */
+
+.services {
+  background: url(https://s26.postimg.cc/yunh7hqrt/klava_back.jpg);
+  width: 100%;
+  background-size: cover;
+}
+
+.text-services h2 {
+  margin-bottom: 15px;
+}
+
+.text-services h2:after {
+  content: '';
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 110px;
+  height: 10px;
+  background: url("https://s26.postimg.cc/kjd7hka4p/image.png") no-repeat;
+}
+
+.left-services p {
+  font-size: 16px;
+  line-height: 41px;
+}
+
+.left-services {
+  padding: 59px 0 0 93px;
+}
+
+.left-services {
+  display: inline-block;
+  width: 50%;
+}
+
+.cont-left-block-services {
+  overflow: hidden;
+  text-align: left;
+  padding: 29px 0;
+}
+
+.text-services p {
+  font-size: 16px;
+  line-height: 40px;
+  color: #7e8287;
+  padding: 0 70px 0 0;
+}
+
+.left {
+  display: block;
+  float: left;
+  width: 164px;
+  height: 142px;
+  margin: 10px 0 40px 0;
+}
+
+.right {
+  display: block;
+  float: right;
+  width: 164px;
+  height: 142px;
+  margin: 10px 100px 40px 0;
+}
+
+.block-services p {
+  font-size: 11px;
+  line-height: 21px;
+  color: #7e8287;
+  margin: 5px 0;
+}
+
+.block-services h3 {
+  padding: 0;
+  margin: 0;
+  font-weight: 800;
+}
+
+.ico-services {
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background-image: url(https://s26.postimg.cc/vgn7qtxmx/css_sprites.png);
+  margin: 0 -5px;
+}
+
+.globus-ico {
+  background-position: -2px 5px;
+}
+
+.search-ico {
+  background-position: 156px 0;
+}
+
+.diagram-ico {
+  background-position: 52px 0;
+}
+
+.ticTak-ico {
+  background-position: 104px 0;
+}
+
+/* ===================== */
+
+/* my work */
+
+.my-work {
+  padding: 100px 300px 65px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 41px;
+  color: #7e8287;
+}
+
+.my-work h2 {
+  margin-bottom: 18px;
+}
+
+.my-work h2:after {
+  content: '';
+  display: block;
+  margin: 30px auto 10px;
+  width: 110px;
+  height: 10px;
+  background: url("https://s26.postimg.cc/kjd7hka4p/image.png") no-repeat;
+}
+
+/* Галерея */
+
+.galery {
+  font-size: 0;
+}
+
+.pic-kont {
+  display: inline-block;
+  width: calc(100% / 4);
+}
+
+.imghvr-fade {
+  position: relative;
+  color: white;
+}
+
+.imghvr-fade img {
+  width: 100%;
+}
+
+figcaption {
+  background-color: rgba(2, 145, 140, 0.8);
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  transition: all 0.5s;
+}
+
+.figcaption {
+  font-size: 15px;
+  padding: 40px 20px 20px;
+}
+
+.imghvr-fade figcaption {
+  opacity: 0;
+}
+
+.imghvr-fade:hover figcaption {
+  opacity: 1;
+}
+
+/* =================== */
+
+/* contact me */
+
+.contact-me {
+  padding-top: 96px;
+  padding-bottom: 55px;
+}
+
+/*===================*/
+
+/*contact form*/
+
+.contact-form {
+  background: #0B0B0B;
+  padding-top: 5px;
+  padding-bottom: 47px;
+  text-align: center;
+}
+
+.contact-wrapper {
+  width: 920px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.contact-wrapper input {
+  width: 636px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #0B0B0B;
+  color: #7E8287;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 16px;
+  margin: 30px auto 20px;
+}
+
+.contact-wrapper textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #7E8287;
+  width: 100%;
+  height: 40px;
+  color: #7E8287;
+  background: #0B0B0B;
+  text-align: center;
+  font-size: 20px;
+  margin: 25px auto 0;
+  resize: none;
+}
+
+.mesage {
+  color: #7E8287;
+  border-bottom: 1px solid #7E8287;
+  height: 40px;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+div.submit {
+  margin: 58px auto 20px;
+  width: 196px;
+  height: 47px;
+  background-color: #cfc91d;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.submit a {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #0b1016;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0.156em;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.submit:hover {
+  box-shadow: 0 0 2px 1px #3D5A6C;
+  background-color: #082432;
+  transition: 0.3s;
+}
+
+/*===============*/
+
+/*footer*/
+
+footer {
+  background: #000;
+  height: 70px;
+  text-align: center;
+
+}
+
+footer p {
+  padding-top: 30px;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #7A7C81;
+  font-size: 12px;
+}
+
+/* ====================== */
+/* Конец! */
